@@ -1,0 +1,20 @@
+[PROJECT]
+Target=PARPADEO LED.hex
+Processor_Text=PIC16F877A
+CCSVersion=5.015
+Compiler=PCM
+[Target Data]
+FileList=PARPADEO LED.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[PARPADEO LED.c]
+Type=4
+[mru-list]
+1=PARPADEO LED.c
+[Opened Files]
+1=..\LCD.c
+2=PARPADEO LED.c
+3=
+[Units]
+Count=1
+1=PARPADEO LED (main)

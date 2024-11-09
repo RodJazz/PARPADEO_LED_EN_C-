@@ -1,0 +1,60 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+007     PORTC
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+021     main.@SCRATCH1
+022     @delay_ms1.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+087     TRISC
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @delay_ms1
+000019  @cinit1
+000019  main
+000023  @cinit2
+
+Project Directory:
+    C:\Users\USUARIO\Desktop\LENGUAJE C\PIC C COMPILER\PARPADEO LED EN PIC C COMPILER\
+
+Project Files:
+    PARPADEO LED.c                                          [09-nov.-24 11:55  CRC=3FDD359C]
+    ..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16f877a.h [12-nov.-13 14:35  CRC=81334808]
+
+Source signature=4243C5AC
+
+Units:
+    PARPADEO LED (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   PARPADEO LED.xsym
+    Errors:      PARPADEO LED.err
+    Ext Symbols: PARPADEO LED.esym
+    INHX8:       PARPADEO LED.hex
+    Symbols:     PARPADEO LED.sym
+    List:        PARPADEO LED.lst
+    Debug/COFF:  PARPADEO LED.cof
+    Project:     PARPADEO LED.ccspjt
+    Call Tree:   PARPADEO LED.tre
+    Statistics:  PARPADEO LED.STA

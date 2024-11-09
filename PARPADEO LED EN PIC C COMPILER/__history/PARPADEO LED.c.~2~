@@ -1,0 +1,15 @@
+#include <16f877a.h>
+#fuses xt,nowdt,put,noprotect,nolvp
+#use delay(clock=4000000)
+#byte TRISC = 0X87
+#byte PORTC = 0X07
+void main(){
+ TRISC=0X00;
+ PORTC=0X00;
+ while(true){
+  bit_set(PORTC,0);
+  delay_ms(1000);
+  bit_clear(PORTC,0);
+  delay_ms(1000);
+ }
+}
